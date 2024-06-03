@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+
+body {
+	background: #232327;
+    color: #ffffff;
+    font-family: "Philosopher", sans-serif;
+    font-size: 16px;
+    line-height: normal;
+}
+
+
+.price_wrapper {
+	padding: 80px 0;
+}
+
+.price_wrapper .head_text {
+	position: relative;
+}
+
+.price_wrapper .head_text h2 {
+	font-size: 40px;
+	font-weight: 700;
+	font-family: "Yantramanav", sans-serif;
+	margin-bottom: 40px;
+}
+
+.price_wrapper .price_box {
+	padding: 35px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 20px;
+	transition: .4s;
+	margin-top: 20px;
+} 
+
+.price_wrapper .price_box:hover {
+	border: 1px solid #f1ff9d;
+}
+
+.price_wrapper .price_box .price_item01 h3 {
+	font-size: 18px;
+	color: #ffffff;
+	margin-bottom: 10px;
+	font-weight: 700;
+}
+
+.price_wrapper .price_box .price_item01 h2 {
+	font-size: 50px;
+	font-weight: 700;
+	font-family: "Yantramanav", sans-serif;
+	line-height: normal;
+	color: #f1ff9d;
+}
+
+.price_wrapper .price_box .price_item01 h2 span {
+	font-size: 24px;
+	font-weight: 500;
+	color: #757980;
+	line-height: normal;
+}
+
+.price_wrapper .price_box .price_item02 {
+	padding-top: 20px;
+	border-top: 1px solid rgb(255 255 255 / 29%);
+}
+
+.price_wrapper .price_box .price_item02 ul {
+	list-style: none;
+}
+
+.price_wrapper .price_box .price_item02 ul li {
+	margin-top: 15px;
+	display: flex;
+	align-items: center;
+	color: #757980;
+}
+
+.price_wrapper .price_box .price_item02 ul li i {
+	font-size: 14px;
+	margin-right: 10px;
+}
+
+.price_wrapper .price_box .price_item02 a {
+	width: 100%;
+	height: 50px;
+	border-radius: 25px;
+	background: #f1ff9d;
+	color: #000000;
+	font-size: 17px;
+	font-weight: 600;
+	font-family: "Yantramanav", sans-serif;
+	border: 1px solid transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-shrink: 0;
+	transform: .4s;
+	margin-top: 30px;
+}
+
+.price_wrapper .price_box .price_item02 a:hover {
+	background: transparent;
+	border: 1px solid #f1ff9d;
+	text-decoration: none;
+	color: #ffffff;
+}
